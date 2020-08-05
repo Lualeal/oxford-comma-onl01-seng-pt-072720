@@ -1,5 +1,5 @@
 def oxford_comma(array)
 elements = []
 elements.join 
-puts elements
+return elements(array)
 end
