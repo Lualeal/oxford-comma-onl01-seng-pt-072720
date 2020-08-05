@@ -9,6 +9,6 @@ def oxford_comma(array)
   when 3
     array.join(" , "), array.last(" and ")
   else 
-       [array[0..-3].join(', '), arr.last].join(', and ')
-     end
+    [array[0..-3].join(', '), arr.last].join(', and ')
+  end
 end 
